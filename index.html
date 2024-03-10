@@ -1097,12 +1097,28 @@ text-align: center;
   <div id="main-wrapper" class="fancy-scrollbar">
     <div id="main">
       <div id="content">
-        <div id="links-container"  style="padding-left: 30%; padding-right: 30%;">
-          <a href="https://gmail.com">Gmail</a>
-          <a href="https://unsplash.com">Unsplash</a>
-          <a href="http://www.devrahul.in">My site</a>
-          <a href="https://beacons.ai/developerrahul">About</a>
-        </div>
+        <!-- Add the Font Awesome stylesheet link in the head of your HTML document -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<div id="links-container" style="padding-left: 30%; padding-right: 30%;">
+  <a href="https://gmail.com" style="color: yellow; text-decoration: none; display: flex; flex-direction: column; align-items: center;">
+    <i class="fas fa-envelope" style="font-size: 24px; color: yellow;"></i>
+    <span style="font-weight: bold;">Gmail</span>
+  </a>
+  <a href="https://youtube.com" style="color: red; text-decoration: none; display: flex; flex-direction: column; align-items: center;">
+    <i class="fab fa-youtube" style="font-size: 24px; color: red;"></i>
+    <span style="font-weight: bold;">YouTube</span>
+  </a>
+  <a href="https://gemini.google.com/app" style="text-decoration: none; display: flex; flex-direction: column; align-items: center; color: lightgreen;">
+  <i class="fa-sharp fa-light fa-microchip-ai" style="font-size: 24px; color: lightgreen;"></i> 
+  <span style="font-weight: bold;">Gemini</span>
+</a>
+  <a href="https://photos.google.com/" style="color: orange; text-decoration: none; display: flex; flex-direction: column; align-items: center;">
+    <i class="fa-sharp fa-light fa-aperture" style="font-size: 24px; color: orange;"></i>
+    <span style="font-weight: bold;">Google_Photos</span>
+  </a>
+</div>
+
       <div class="mycontainer" style="padding-left: 30%; padding-right: 30%; padding-top: 1%;">
         <div id="header-container">
           <div class='parent'>
@@ -1113,8 +1129,8 @@ text-align: center;
                   <div class="electron-omega"></div>
               </div>
           </main></div>
-            <div class='child'>  <button type="button" id="user-menu-button" style="margin-right: 4%; margin-top: -2%; margin-bottom: 25%">
-    <img src="DP1.jpg" style="height: 125px; width: 125px;" alt="" />
+            <div class='child'>  <button type="button" id="user-menu-button" style="margin-right: 4%; margin-top: 1%; margin-bottom: 25%">
+    <img src="DP1.jpg" style="height: 100px; width: 100px;" alt="" />
 </button>
 
 
@@ -1136,9 +1152,7 @@ text-align: center;
               <a href="https://github.com/lassiipk" class="social-button social-button--github" aria-label="GitHub">
                 <i class="fab fa-github"></i>
               </a>
-			  <a href="https://www.google.com" class="social-button social-button--google" aria-label="Google">
-                <i class="fab fa-google"></i>
-              </a>
+			  
 			  
               
             </div></div>
