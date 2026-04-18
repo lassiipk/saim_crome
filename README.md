@@ -19,7 +19,7 @@ A custom Chrome new tab page — built with plain HTML & CSS, no frameworks, no 
 
 ## Live demo
 
-> **[lassiipk.github.io/startpage](https://lassiipk.github.io/startpage)**
+> **[lassiipk.github.io/startpage](https://lassiipk.github.io/saim_crome)**
 >
 > *(Update this link after renaming the repo)*
 
@@ -38,7 +38,7 @@ A custom Chrome new tab page — built with plain HTML & CSS, no frameworks, no 
 4. Click **Save**
 5. Wait ~60 seconds, then refresh the page — your live URL appears at the top:
    ```
-   https://your-username.github.io/your-repo-name
+   https://your-username.github.io/saim_crome
    ```
 
 ### Step 2 — Install the Chrome extension
@@ -96,4 +96,4 @@ If you rename this repo (e.g. from `saim_crome` to `startpage`), GitHub automati
 
 ---
 
-Made by **Saim** · Feel free to fork and make it yours.
+Made with ♡ by **Saim** · Feel free to fork and make it yours.
